@@ -1,0 +1,5 @@
+/build*/
+/bench-results/
+
+# Local correspondence draft; not part of the published implementation.
+/docs/author-question.md
