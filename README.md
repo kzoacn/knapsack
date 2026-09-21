@@ -9,6 +9,9 @@ Ce Jin 的 [arXiv:2308.04093v2](https://arxiv.org/abs/2308.04093v2) 算法的研
 论文给出的界为 `log^4`；当前实现与该界的差异保留在
 [复杂度审计](docs/complexity.md)和独立审查中。
 
+配套英文论文见 [Markdown 稿件](paper/paper.md)，包含实现结构、复杂度推导、
+验证和实验结果，署名 kzoacn，论文采用 CC BY 4.0 许可证。
+
 ## 构建与测试
 
 需要 CMake 3.20+ 和支持 C++20、`__int128` 的编译器，例如 GCC 或 Clang。

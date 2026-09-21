@@ -1,0 +1,37 @@
+{
+  "title": "A Deterministic C++20 Implementation of Proximity-Based 0-1 Knapsack",
+  "abstract": "We present an exact C++20 implementation of the proximity-based framework for 0-1 knapsack developed by Ce Jin. The artifact includes greedy-boundary selection, rank and weight stages, deterministic coloring, hinted witness propagation, implicit matrix search, and recovery of original item indices. A direct accounting of the implemented control flow gives a conservative deterministic running-time bound of $O(n+W^2\\log^5(2W))$, where $n$ is the input size and $W$ is the maximum eligible item weight, under the stated integer-arithmetic and resource assumptions. The additional logarithmic factor distinguishes this implementation guarantee from Jin's $O(n+W^2\\log^4 W)$ theorem. We explain why propagated hint handles cannot automatically be charged to the initial source count, and provide executable component checks and an implementation-specific audit. Exact integer arithmetic, explicit resource limits, independent solvers, and allocation-failure tests support reproducibility. Release and sanitizer configurations each pass all seven CTest tests. Small experiments report both timing and process memory, including cases where the simpler exchange-DP baseline is faster. The contribution is a documented research implementation and its audit, rather than a new asymptotic knapsack algorithm.",
+  "authors": [
+    "kzoacn"
+  ],
+  "author_homepages": [
+    "https://github.com/kzoacn"
+  ],
+  "license": "CC-BY-4.0",
+  "language": "en",
+  "primary_category": "cs.DS",
+  "secondary_categories": [],
+  "tags": [
+    "knapsack",
+    "C++20",
+    "reproducibility",
+    "complexity audit"
+  ],
+  "ai_disclosure": "declared",
+  "agents": [
+    {
+      "provider": "OpenAI",
+      "model": "GPT-6",
+      "client": "Codex",
+      "model_version": "unknown",
+      "role": "implementation, testing, complexity analysis, manuscript preparation"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "unknown",
+      "client": "Codex",
+      "model_version": "unknown",
+      "role": "independent subagent complexity cross-check"
+    }
+  ]
+}
