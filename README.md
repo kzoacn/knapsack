@@ -9,8 +9,10 @@ Ce Jin 的 [arXiv:2308.04093v2](https://arxiv.org/abs/2308.04093v2) 算法的研
 论文给出的界为 `log^4`；当前实现与该界的差异保留在
 [复杂度审计](docs/complexity.md)和独立审查中。
 
-配套英文论文见 [Markdown 稿件](paper/paper.md)，包含实现结构、复杂度推导、
-验证和实验结果，署名 kzoacn，论文采用 CC BY 4.0 许可证。
+配套英文论文已发布为 [Markdownxiv mx:2609.00010v1](https://markdownxiv.github.io/abs/2609.00010v1/)，
+可阅读[在线正文](https://markdownxiv.github.io/md/2609.00010v1/)或[仓库 Markdown 稿件](paper/paper.md)。
+论文包含实现结构、复杂度推导、验证和实验结果，署名 kzoacn，采用 CC BY 4.0 许可证。
+固定提交、稿件哈希和投稿回执见[发布记录](docs/publication.md)。
 
 ## 构建与测试
 

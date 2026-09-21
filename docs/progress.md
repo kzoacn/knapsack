@@ -27,4 +27,5 @@
 
 独立交叉审查已完成。当前版本不声称获得论文的 `log^4` 上界；相关复现程序和说明作为研究记录保留。
 代码与说明的发布仓库为 [kzoacn/knapsack](https://github.com/kzoacn/knapsack)。
-配套论文按实现与复杂度审计报告撰写，投稿及发布状态将记录在仓库中。
+配套英文论文已发布为 [mx:2609.00010v1](https://markdownxiv.github.io/abs/2609.00010v1/)；
+平台已确认归档与发布，线上原始 Markdown 与本地稿件逐字节一致。见[发布记录](publication.md)。
